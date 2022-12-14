@@ -1,0 +1,19 @@
+@media (max-width:700px){
+    .sign-up{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-section{
+        width: 496px;
+        height: 1185px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    
+    }
+    .form-wrapper{
+        width: 496px;
+        padding: 30px 36px 10px 36px;
+    }
+}

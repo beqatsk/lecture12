@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+}
+.sign-up{
+    display: flex;
+}
+.form-section{
+    width: 1424px;
+    height: 1185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    width: 496px;
+    height: 1185px;
+    background: #F9F8F7;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+}
+.form-wrapper{
+    width: 552px;
+    height: 832px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 30px 64px 10px 64px;
+}
+h3{
+    font-weight: 700;
+    font-size: 25px; 
+    color: #212628;
+}
+h4{
+    font-weight: 700;
+    font-size: 23px;
+    color: #212628;
+}
+.form-header{
+    display: flex;
+    justify-content:space-between;
+}
+.header-desc{
+    font-weight: 600;
+    font-size: 18px;
+    color: #212628;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    opacity: 0.6;
+}
+.input{
+    width: 424px;
+    height: 54px;
+    left: 493px;
+    top: 351px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-bottom: 27px;
+    padding-left: 25px;
+}
+input::placeholder{
+    font-weight: 400;
+    font-size: 18px;
+    color: #212628;
+    opacity: 0.5;
+}
+.card-number-input {
+    width: 424px;
+    height: 54px;
+    left: 493px;
+    top: 351px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-bottom: 27px;
+    padding-left: 25px;
+
+}
+.card-number{
+    position: relative;
+}
+.card-icon{
+    position: absolute;
+    top: 17px;
+    right: 25px;
+}
+.date{
+    width: 282px;
+    height: 54px;
+    left: 493px;
+    top: 351px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-bottom: 27px;
+    padding-left: 25px;
+
+}
+.cvv{
+    width: 120px;
+    height: 54px;
+    left: 493px;
+    top: 351px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-bottom: 27px;
+    padding-left: 25px;
+    margin-left: 17px;
+
+}
+.end{
+    display: flex;
+    column-gap: 24px;
+}
+.text{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(33, 38, 40, 0.5);
+}.text a{
+    color: red;
+    text-decoration:underline;
+}
+.btn{
+    width: 270px ;
+    height: 64px ;
+    background: linear-gradient(270deg, #C23584 0%, #E2306C 24.48%, #F77736 83.85%, #FA963E 100%);
+    border-radius: 32px; 
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 29px ;
+    cursor: pointer;
+    
+}
+.btn span{
+    color: #f4aec3;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+.btn:hover{
+    background: linear-gradient(270deg, #9a6f88 0%, #793b50 24.48%, #b36e4b 83.85%, #91633a 100%);
+}
+.text1{
+    font-weight: 700;
+    font-size: 18px;
+    color: #E1306C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px ;
+}
+h5{
+    font-weight: 700;
+    font-size: 16px;
+    color: #313131;
+}
+.text-card{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #212628;
+    width: 363px;
+    height: 91px;
+}
+.sidebar{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 66px;
+    padding-right: 66px;
+    row-gap: 50px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 14px;
+    text-align: center;
+
+}
+.img-wrapper{
+    width: 100px;
+    height: 100px;
+    opacity: 0.9;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-weight: 700;
+    font-size: 23px;
+    color: #212628;
+    text-align: center;
+  
+}
